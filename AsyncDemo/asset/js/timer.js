@@ -13,7 +13,7 @@ function startTime() {
     m = addZero(m);
     s = addZero(s);
     //console.log(se);
-    timerDemo.innerHTML = '${h} : ${addZero(m)} : ${addZero(s)} ${am_pm}';
+    timerDemo.innerHTML = `${h} : ${m} : ${s} ${am_pm}`;
     
 }setTimeout(startTime,500);
 
