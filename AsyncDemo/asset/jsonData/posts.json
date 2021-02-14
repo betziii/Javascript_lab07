@@ -1,0 +1,25 @@
+[
+    {
+        "name": "John1",
+        "image": "https://images.unsplash.com/photo-1613438844454-1b4c0cc97a20?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0N3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "postTitle": "New Technology Arrives",
+        "date": "January 21 ,2021",
+        "postText": "Technology is the sum of techniques, skills, methods, and processes used in the production of goods or services or in the accomplishment of objectives, such as scientific investigation."
+    },
+    {
+        "name": "John 2",
+        "image": "https://images.unsplash.com/photo-1490775949603-0e355e8e01ba?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjl8fHRlY2hub2xvZ3l8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60 ",
+        "postTitle": "Post Two",
+        "date": "January 21 ,2021",
+        "postText": "Lorem Ipsum and his family is on vacation."
+    },
+    {
+        "name": "John3",
+        "image": "https://images.unsplash.com/photo-1613438844454-1b4c0cc97a20?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0N3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "postTitle": "New Technology Arrives",
+        "date": "January 21 ,2021",
+        "postText": "Technology is the sum of techniques, skills, methods, and processes used in the production of goods or services or in the accomplishment of objectives, such as scientific investigation."
+    }
+    
+    
+]
