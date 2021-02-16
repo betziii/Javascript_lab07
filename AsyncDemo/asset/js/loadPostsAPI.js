@@ -1,6 +1,6 @@
 // UI Vars 
 const postDiv3 = document.getElementById('thePosts');
-
+const load = document.querySelector('#loadd');
 //Load Every thing ....
 document.addEventListener("DOMContentLoaded", () => {
     //load_fromPlaceHolder();
@@ -55,7 +55,7 @@ function loadDataNew() {
         let output = '';
       posts.forEach(function(post){
           output += `<div class="item">
-          <div class="image"> <img src="${post.image}"> </div>
+          <div class="image"> <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8dGVjaG5vbG9neXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"> </div>
           <div class="content">
               <a class="header" href="#" id="bTitle"> ${post.postTitle} </a>
               <div class="meta">
@@ -69,6 +69,7 @@ function loadDataNew() {
 
 
       });
+      load.classList.remove('active');
       postDiv3.innerHTML = output;
   }).catch(function (err) {
       console.log(err);
