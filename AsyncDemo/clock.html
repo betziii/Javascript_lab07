@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog clock</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/AsyncDemo/asset/css/style.css">
+</head>
+<body>
+    <div class="ui top attached tabular menu">
+        <a class="active item" href="index.html">
+          Home
+        </a>
+        <a class="item" href="api.html">
+            API
+          </a>
+        <a class="item" href="clock.html">Clock</a>
+        <a class="item" href="gallery.html">Gallery</a>
+        <div class="right menu">
+            <div class="item">
+                <div class="ui transparent icon input">
+                    <input type="text" placeholder="Search users..." data-np-checked="1">
+                    <i class="search link icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui bottom attached segment">
+        <p></p>
+    </div>
+    <div class="row pd">
+        <div class="col-lg-4 pd"></div>
+        <div class="col-lg-6">
+            <main class="container pt-4">
+                <h1>Analog Clock</h1>
+                <div class="clock">
+                    <div class="main-clock">
+                        <div class="line hour" id="hour"></div>
+                        <div class="line minute" id="min"></div>
+                        <div class="line second" id="sec"></div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==" crossorigin="anonymous"></script>
+    <script src="/AsyncDemo/asset/js/analogClock.js"></script>
+</body>
+</html>
